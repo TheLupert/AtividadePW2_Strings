@@ -7,7 +7,7 @@
     $verifEmail = "admin@gmail.com";
     $verifSenha = "admin123";
 
-    if ($email == $verifEmail && $senha == $verifSenha) {
+    if (strcmp($email,$verifEmail) == 0  && strcmp($senha,$verifSenha) == 0) {
         echo "<p> Login realizado com sucesso! </p>";
     }
     else {
