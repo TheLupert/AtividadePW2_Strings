@@ -7,7 +7,7 @@
 <div>
     <form action="exibir-pagina-produto.php" method="post">
         <div>
-            <label>Produto:</label>
+            <label> Produto: </label>
             <input type="text" placeholder="Nome do Produto" name="txProduto" />
         </div>
         <br>
@@ -23,7 +23,7 @@
         <br>
         <div>
             <label> Quantidade: </label>
-            <input type="text" placeholder="Quantidade por extenso" name="txCategoria" />    
+            <input type="text" placeholder="Quantidade por extenso" name="txQuantidade" />    
         </div>
         <br>
         <div>
