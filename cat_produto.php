@@ -9,7 +9,6 @@
         <div class="formInfo">
             <input type="text" placeholder="Categoria" name="catProd" />
         </div>
-        <br/>
         <div>
             <input class="formInfo" type="submit" value="Cadastrar" />
         </div>
