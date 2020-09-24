@@ -2,9 +2,9 @@
 
 <?php
     $categoria = $_POST["catProd"];
-    $UpderCaseCat = ucfirst($categoria);
+    $UpperCaseCat = ucfirst($categoria);
 
-    echo "<p>$UpderCaseCat</p>";
+    echo "<p>$UpperCaseCat</p>";
 
 ?>  
 <?php require("rodape.php"); ?>
