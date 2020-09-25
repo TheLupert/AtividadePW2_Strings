@@ -4,25 +4,26 @@
     <h1> Página de Produtos </h1>
 </section>
 
+
 <div>
     <form action="exibir-pagina-produto.php" method="post">
         <div>
-            <label> Produto: </label>
+            <font color = "white"><label> Produto: </label></font>
             <input type="text" placeholder="Nome do Produto" name="txProduto" />
         </div>
         <br>
         <div> 
-            <label> Valor: </label>                   
+            <font color = "white"><label> Valor: </label></font>                  
             <input type="text" placeholder="Valor do produto" name="txValor" />             
         </div>
         <br>
         <div>
-            <label> Categoria: </label>
+            <font color = "white"><label> Categoria: </label></font>
             <input type="text" placeholder="Categoria do Produto" name="txCategoria" />    
         </div>
         <br>
         <div>
-            <label> Quantidade: </label>
+            <font color = "white"><label> Quantidade: </label></font>
             <input type="text" placeholder="Quantidade por extenso" name="txQuantidade" />    
         </div>
         <br>
