@@ -1,4 +1,6 @@
 
+<?php require("cabecalho.php"); ?>
+
 <section>
     <?php
             
@@ -23,3 +25,5 @@
     ?>
 
 </section>
+
+<?php require("rodape.php"); ?>

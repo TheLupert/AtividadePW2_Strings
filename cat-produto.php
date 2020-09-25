@@ -1,6 +1,6 @@
 <?php require("cabecalho.php"); ?>
 
-
+<section>
 <div>
     <h1>Categoria Produto</h1>
 </div>
@@ -13,5 +13,6 @@
             <input class="formInfo" type="submit" value="Cadastrar" />
         </div>
     </form>
+</section>
     
 <?php require("rodape.php"); ?>

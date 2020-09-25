@@ -1,11 +1,11 @@
 <?php require("cabecalho.php"); ?>
 
-
+<section>
 <div>
     <h1>Login</h1>
 </div>
 
-    <form action="validar_usuario.php" method="post">
+    <form action="validar-usuario.php" method="post">
         <div class="formInfo">
             <input type="email" placeholder="E-mail" name="emailUser" />
         </div>
@@ -16,6 +16,7 @@
             <input class="formInfo" type="submit" value="Enviar" />
         </div>
     </form>
+</section>
     
 
 

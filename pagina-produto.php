@@ -4,7 +4,7 @@
     <h1> Página de Produtos </h1>
 </section>
 
-
+<section>
 <div>
     <form action="exibir-pagina-produto.php" method="post">
         <div>
@@ -32,5 +32,6 @@
         </div>
     </form>
 </div>
+</section>
 
 <?php require("rodape.php"); ?>

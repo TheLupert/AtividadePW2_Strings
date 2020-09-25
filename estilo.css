@@ -1,36 +1,59 @@
 body {
-    background-color: #080808;
+  background-color: #080808;
+  margin: 0px;
 }
 
 h1, p {
-    color: rgb(199, 199, 199);
-    
+  color: rgb(199, 199, 199);
+  
+}
+
+footer {
+width: 100%;
+background: #333;
+margin-top: 105px;
+position: fixed;
+bottom: 0px;
+left: 0;
+}
+
+footer p{
+text-align: center;
+color: rgb(199, 199, 199);
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 .formInfo {
-    margin: 5px;
+  margin: 5px;
+}
+
+section{
+  width:0%;
+  margin: 0 auto; /* P/ centralizar **/
+  display: table;
 }
